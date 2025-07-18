@@ -7,16 +7,6 @@ import threading
 # Clear the screen (works on Unix-like systems)
 subprocess.call('clear', shell=True)
 
-
-ascii_image = r"""
-____  _______ ___  _____    _______    ________      _____   ________   
-\   \/  /    |   \/  _  \   \      \   \______ \    /  _  \  \_____  \  
- \     /|    |   /  /_\  \  /   |   \   |    |  \  /  /_\  \  /   |   \ 
- /     \|    |  /    |    \/    |    \  |    `   \/    |    \/    |    \
-/___/\  \______/\____|__  /\____|__  / /_______  /\____|__  /\_______  /
-      \_/               \/         \/          \/         \/         \/ 
-"""
-print(ascii_image)
 # Ask for input
 remote_server = input("Vui lòng nhập remote host: ")
 try:
